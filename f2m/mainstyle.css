@@ -1,0 +1,303 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  background-image: url(rectangle-3.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  opacity: inherit;
+}
+
+.menu {
+  font-size: 0.9em;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.brand img {
+  width: 25%;
+  padding: 0;
+  float: left;
+  margin: -30px;
+}
+
+.menu_list {
+  width: 75%;
+  padding-top: 0px;
+  float: left;
+}
+.menu ul {
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  float: right;
+  padding: 20px;
+  margin-top: 10px;
+  display: block;
+}
+
+/* header */
+.satu {
+  padding: 50px;
+}
+.satu h1 {
+  place-content: center;
+  color: white;
+  padding-top: 5%;
+  font-size: 4em;
+  font-weight: 900;
+}
+
+.satu h2 {
+  place-content: center;
+  color: rgb(205, 96, 255);
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.satu p {
+  place-content: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+.button1 {
+  background-color: #8147ca;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  grid-area: satu;
+  font-size: 16px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button2 {
+  background-color: #8147ca;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  margin-top: 20px;
+  margin-left: 90px;
+  text-align: center;
+  text-decoration: none;
+  grid-area: satu;
+  font-size: 16px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button1:hover,
+.button2:hover {
+  background-color: #5e3297;
+}
+
+ressponsive break points */ @media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    height: 100vh;
+  }
+  .menu {
+    font-size: 0.8em;
+    padding: 4px;
+    overflow: hidden;
+  }
+
+  .brand img {
+    width: 25%;
+    padding: 0;
+    float: left;
+    margin: -30px;
+  }
+
+  .menu_list {
+    width: 75%;
+    padding-top: 0px;
+    float: left;
+  }
+  .menu ul {
+    list-style: none;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding: 15px;
+    margin-top: 8px;
+    display: block;
+  }
+
+  .satu {
+    padding: 40px;
+  }
+  .satu h1 {
+    place-content: center;
+    color: white;
+    padding-top: 5%;
+    font-size: 3em;
+    font-weight: 800;
+  }
+
+  .satu h2 {
+    place-content: center;
+    color: rgb(205, 96, 255);
+    font-size: 2em;
+    font-weight: 600;
+  }
+
+  .satu p {
+    place-content: center;
+    color: white;
+    font-size: 1.4em;
+  }
+
+  .button1 {
+    background-color: #8147ca;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 22px;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    grid-area: satu;
+    font-size: 13px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .button2 {
+    background-color: #8147ca;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 22px;
+    margin-top: 15px;
+    margin-left: 80px;
+    text-align: center;
+    text-decoration: none;
+    grid-area: satu;
+    font-size: 13px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .button1:hover,
+  .button2:hover {
+    background-color: #5e3297;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  .menu {
+    font-size: 0.7em;
+    padding: 2px;
+    overflow: hidden;
+  }
+
+  .brand img {
+    width: 25%;
+    padding: 0;
+    float: left;
+    margin: -30px;
+    margin-left: -80px;
+  }
+
+  .menu_list {
+    width: 75%;
+    padding-top: 0px;
+    float: left;
+  }
+  .menu ul {
+    list-style: none;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding: 5px;
+    margin-top: 2px;
+    display: block;
+  }
+
+  .satu {
+    padding: 30px;
+  }
+  .satu h1 {
+    place-content: center;
+    color: white;
+    padding-top: 2%;
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  .satu h2 {
+    place-content: center;
+    color: rgb(205, 96, 255);
+    font-size: 1.6em;
+    font-weight: 600;
+  }
+
+  .satu p {
+    place-content: center;
+    color: white;
+    font-size: 1em;
+  }
+
+  .button1 {
+    background-color: #8147ca;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 22px;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    grid-area: satu;
+    font-size: 13px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .button2 {
+    background-color: #8147ca;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 22px;
+    margin-top: 15px;
+    margin-left: 80px;
+    text-align: center;
+    text-decoration: none;
+    grid-area: satu;
+    font-size: 13px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .button1:hover,
+  .button2:hover {
+    background-color: #5e3297;
+  }
+}
